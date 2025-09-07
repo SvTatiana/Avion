@@ -1,0 +1,9 @@
+.social{
+   display: flex;
+   gap: 24px;
+}
+.social__link{
+   display: block;
+      align-items: center;
+
+}

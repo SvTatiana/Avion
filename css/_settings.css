@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+   line-height: 1.5;
+}
+.page__body{
+   font-family: "Satoshi", sans-serif;
+}
+.container{
+   margin: 0 auto;
+   padding: 0 var(--container-ofset);
+   max-width: calc(var(--container-width) + (var(--container-ofset) * 2));
+}
